@@ -1,6 +1,3 @@
-/* Reference: https://super.so/docs/css-classes */
-
-
 /* Variables */
 :root {
   --transition: all 0.3s !important;
@@ -11,7 +8,7 @@
   --divider-color: #191919 !important;
 }
 
-/* Hides certain elements */
+/* Hiding Unnecessary Elements */
 .notion-page__icon,
 .notion-toggle,
 .notion-navbar,
@@ -25,7 +22,7 @@
 }
 
 
-/* Super wrapper*/
+/* Defining the Super Wrapper*/
 #page-index .super-content.max-width {
   margin-top: 5% !important;
   max-width: 80% !important;
@@ -35,10 +32,7 @@
 
 
 
-/*Dark Mode */
-:root {
- 
-}
+/* Content Styling */
 
 h1, h2, h3, h4, h5, h6, p, ol, ul, li {
   color: var(--text-color) !important;
@@ -48,15 +42,13 @@ body {
   background-color: var(--background-color) !important;
 }
 
-/* Typography */
+/* Logo Size */
 
 #page-index img {
   width: 64px !important;
 }
 
-h2 .notion-semantic-string .link {
-  text-decoration-line: none; !important;
-}
+/* Typography */
 
 h2 {
   font-size: 64px !important;
@@ -102,14 +94,12 @@ h3 {
   width: 100% !important;
 }
 
-
-
 .notion-quote .notion-semantic-string .link {
   font-weight: 400 !important;
   font-size: 64px !important;
 }
 
-/* 6k */
+/* 6k Responsive */
 @media screen and (max-width: 4000px) {
   #page-index .super-content.max-width {
   max-width: 60% !important;
@@ -129,7 +119,7 @@ h3 {
 }
 }
 
-/* 4k */
+/* 4k Responsive */
 @media screen and (max-width: 2600px) {
   #page-index .super-content.max-width {
   max-width: 60% !important;
@@ -149,7 +139,7 @@ h3 {
 }
 }
 
-/* Laptops */
+/* Laptop Responsive  */
 @media screen and (max-width: 1440px) {
   #page-index .super-content.max-width {
   max-width: 90% !important;
