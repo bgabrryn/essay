@@ -1,0 +1,190 @@
+/* Variables */
+:root {
+  --transition: all 0.3s !important;
+  --color-bg-pink: #FF007A !important;
+  --text-color: #fff !important;
+  --background-color: #000 !important;
+  --color-text-gray: #929da6!important;
+  --divider-color: #191919 !important;
+}
+
+/* Hides certain elements */
+.notion-page__icon,
+.notion-toggle,
+.notion-navbar,
+.notion-toggle.bg-gray,
+.notion-header__content,
+.notion-property__title__icon-wrapper,
+.notion-breadcrumb__divider,
+.notion-collection__header,
+.notion-breadcrumb__item {
+  display: none !important;
+}
+
+
+/* Super wrapper*/
+#page-index .super-content.max-width {
+  margin-top: 5% !important;
+  max-width: 80% !important;
+  padding: 0px 48px !important;
+
+}
+
+
+
+/*Dark Mode */
+:root {
+ 
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  color: var(--text-color) !important;
+}
+
+body {
+  background-color: var(--background-color) !important;
+}
+
+/* Typography */
+
+#page-index img {
+  width: 64px !important;
+}
+
+h2 .notion-semantic-string .link {
+  text-decoration-line: none; !important;
+}
+
+h2 {
+  font-size: 64px !important;
+  line-height: 1 !important;
+  font-weight: 400 !important;
+  padding-top: 40px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  opacity: 40% ;
+}
+
+
+.notion-divider {
+    border-bottom: 1px solid !important;
+    color: white;
+    opacity: 10% !important;
+}
+
+
+/*footer*/
+
+.notion-quote {
+  position: relative !important;
+  z-index: auto !important;
+  display: flex !important;
+  border: none !important;
+  height: auto !important;
+  right: auto !important;
+  left: auto !important;
+  padding-top: 32px !important;
+  top: auto !important;
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: 300 !important;
+}
+
+.notion-quote span,
+.notion-quote .link {
+  display: block !important;
+  width: 100% !important;
+}
+
+
+
+.notion-quote .notion-semantic-string .link {
+  font-weight: 400 !important;
+  font-size: 64px !important;
+}
+
+/* 6k */
+@media screen and (max-width: 4000px) {
+  #page-index .super-content.max-width {
+  max-width: 60% !important;
+  padding: 0px 48pxpx !important;
+
+}
+#page-index h2 {
+    font-size: 72px !important;  
+  }
+  
+.notion-quote {
+  margin-left: -15px;
+}
+  
+.notion-quote .notion-semantic-string .link  {
+  font-size: 72px !important;
+}
+}
+
+/* 4k */
+@media screen and (max-width: 2600px) {
+  #page-index .super-content.max-width {
+  max-width: 60% !important;
+  padding: 0px 48pxpx !important;
+
+}
+#page-index h2 {
+    font-size: 64px !important;  
+  }
+  
+.notion-quote {
+  margin-left: -15px;
+}
+  
+.notion-quote .notion-semantic-string .link  {
+  font-size: 64px !important;
+}
+}
+
+/* Laptops */
+@media screen and (max-width: 1440px) {
+  #page-index .super-content.max-width {
+  max-width: 90% !important;
+  padding: 0px 24px !important;
+
+}
+#page-index h2 {
+    font-size: 64px !important;  
+  }
+  
+.notion-quote {
+  margin-left: -15px;
+}
+  
+.notion-quote .notion-semantic-string .link  {
+  font-size: 64px !important;
+}
+}
+
+/* Mobile Responsive */
+ 
+@media screen and (max-width: 600px) {
+  #page-index h2 {
+    font-size: 32px !important;  
+    margin-bottom: -20px;
+  }
+  
+  #page-index .super-content.max-width {
+  max-width: 100% !important;
+  padding: 0px 24px !important;
+
+}
+
+.notion-quote{
+  margin-left: -15px!important;
+}
+
+.notion-quote .notion-semantic-string .link  {
+  font-size: 32px !important;
+}
+}
