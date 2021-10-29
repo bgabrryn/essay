@@ -127,7 +127,7 @@ ______
 .notion-collection-board {
   display: flex !important;
   border-top: 0px!important;
-  margin-top: 140px !important;
+  margin-top: 80px !important;
 }
 
 .notion-collection-board__column {
