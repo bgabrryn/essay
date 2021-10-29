@@ -99,6 +99,105 @@ h3 {
   font-size: 64px !important;
 }
 
+
+
+/*
+______ 
+Portfolio Page 
+______
+*/
+
+
+/* Container */
+.notion-collection-board__column-header {
+  display: none !important;
+}
+
+.notion-collection-board {
+  display: flex !important;
+  border-top: 0px!important;
+  margin-top: 140px !important;
+}
+
+.notion-collection-board__column {
+    display: grid !important;
+  grid-template-columns: repeat(1, minmax(258px, 1fr)) !important;
+  grid-gap: px !important;
+}
+
+
+/* Cards */
+
+.notion-collection-board__column > div {
+  padding: 16px !important;
+  margin-bottom: 0px !important;
+  height: 400px !important;
+}
+
+.notion-collection-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  transition: transform 0.4s !important;
+  transform: scale (1) !important;
+  background: transparent !important;
+  
+}
+
+.notion-collection-card:hover {
+  background: transparent !important;
+  transform: scale(1.02) !important;
+  transition: transform 0.4s !important;
+}
+
+/* Card Covers */
+.notion-collection-card__cover {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  z-index: -1 !important;
+  border-bottom: 0px !important;
+}
+
+/* _______Selecting the parent div of this class (>) and all matching divs with the universal selector (*)_____ */
+.notion-collection-card__cover > * {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+
+.notion-collection-card__cover img {
+  height: 100%; !important;
+  max-height: 100% !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+
+/* Card Data – selecting the content of the card, as displayed in properties */
+.notion-property__title {
+  padding: 250px 32px 0px 32px !important;
+  font-size: 32px !important;
+}
+
+.notion-collection-card__content {
+  padding: 4px 40px 32px 33px;
+  font-size: 16px !important;
+}
+
+
+
+
+
+/* 
+_________________________ 
+Responsive Alignments 
+_________________________
+*/
+
 /* 6k Responsive */
 @media screen and (max-width: 4000px) {
   #page-index .super-content.max-width {
