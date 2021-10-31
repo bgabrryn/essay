@@ -50,6 +50,13 @@ body {
 
 /* Typography */
 
+p {
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  opacity: 90% !important;
+  
+}
+
 h2 {
   font-size: 64px !important;
   line-height: 1 !important;
@@ -118,12 +125,7 @@ ______
   padding-left: 16px !important;
 }
 
-p {
-  font-size: 18px !important;
-  font-weight: 200 !important;
-  opacity: 80% !important;
-  
-}
+
 
 
 /* Container */
