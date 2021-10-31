@@ -202,7 +202,7 @@ p {
 }
 
 
-#portfolio-page .notion-collection-card__content {
+.notion-collection-card__content {
   padding: 4px 40px 32px 40px;
   font-size: 16px !important;
 }
