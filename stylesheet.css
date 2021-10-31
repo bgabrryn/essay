@@ -118,6 +118,13 @@ ______
   padding-left: 16px !important;
 }
 
+p {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  opacity: 50% !important;
+  
+}
+
 
 /* Container */
 .notion-collection-board__column-header {
@@ -199,7 +206,6 @@ ______
   padding: 4px 40px 32px 40px;
   font-size: 16px !important;
 }
-
 
 
 
