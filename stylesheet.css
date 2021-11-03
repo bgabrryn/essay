@@ -249,6 +249,12 @@ _________________________
   padding: 0px 48pxpx !important;
 
 }
+  
+  #page-portfolio .super-content.max-width {
+  max-width: 60% !important;
+  padding: 0px 48pxpx !important;
+
+}
 #page-index h2 {
     font-size: 64px !important;  
   }
@@ -272,6 +278,12 @@ _________________________
 #page-index h2 {
     font-size: 64px !important;  
   }
+  
+  #page-portfolio .super-content.max-width {
+  max-width: 90% !important;
+  padding: 0px 24px !important;
+
+}
   
 .notion-quote {
   margin-left: -15px;
