@@ -106,7 +106,7 @@
   }
   
   #page-portfolio .notion-property__title, .notion-collection-card__content {
-    display:none !important;
+    display: none !important;
   }
   
   #page-portfolio .super-content.max-width {
