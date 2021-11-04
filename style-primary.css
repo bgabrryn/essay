@@ -1,0 +1,76 @@
+/* Variables */
+:root {
+  --transition: all 0.3s !important;
+  --color-bg-pink: #FF007A !important;
+  --text-color: #fff !important;
+  --background-color: #000 !important;
+  --color-text-gray: #929da6!important;
+  --divider-color: #191919 !important;
+}
+
+/* Hiding Unnecessary Elements */
+.notion-page__icon,
+.notion-toggle,
+.notion-navbar,
+.notion-toggle.bg-gray,
+.notion-header__content,
+.notion-property__title__icon-wrapper,
+.notion-breadcrumb__divider,
+.notion-collection__header,
+.notion-breadcrumb__item {
+  display: none !important;
+}
+
+
+/* Content Styling */
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  color: var(--text-color) !important;
+}
+
+body {
+  background-color: var(--background-color) !important;
+}
+
+p {
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  opacity: 90% !important;
+}
+
+h2 {
+  font-size: 64px !important;
+  line-height: 1 !important;
+  font-weight: 400 !important;
+  padding-top: 40px !important;
+}
+
+h3 {
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  opacity: 40% ;
+}
+
+.notion-divider {
+    border-bottom: 1px solid !important;
+    color: white;
+    opacity: 10% !important;
+}
+
+/*
+______ 
+Home Page 
+______
+*/
+
+
+
+
+
+
+
+
+
+
+
+
