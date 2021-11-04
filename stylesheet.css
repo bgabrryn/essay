@@ -30,6 +30,23 @@
 
 }
 
+/* Navigation Bar */
+.super-navbar__content {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  max-height: 64px !important;
+  padding-right: 32px !important;
+  padding-left: 32px !important;
+}
+
+.super-navbar__item {
+  padding-left: 24px !important;
+}
+
+.super-navbar__item:hover {
+  color: #FF007A !important;
+}
+
 
 
 /* Content Styling */
