@@ -1,8 +1,6 @@
 #page-portfolio .super-content.max-width {
-  margin-top: 5% !important;
-  max-width: 80% !important;
-  padding: 0px 48px !important;
-
+  max-width: 90% !important;
+  padding: 0px 24px !important;
 }
 
 #page-portfolio h2, p {
