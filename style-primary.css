@@ -57,11 +57,34 @@ h3 {
     opacity: 10% !important;
 }
 
-/*
-______ 
-Home Page 
-______
-*/
+/*footer*/
+
+.notion-quote {
+  position: relative !important;
+  z-index: auto !important;
+  display: flex !important;
+  border: none !important;
+  height: auto !important;
+  right: auto !important;
+  left: auto !important;
+  padding-top: 32px !important;
+  top: auto !important;
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: 300 !important;
+}
+
+.notion-quote span,
+.notion-quote .link {
+  display: block !important;
+  width: 100% !important;
+}
+
+.notion-quote .notion-semantic-string .link {
+  font-weight: 400 !important;
+  font-size: 64px !important;
+}
+
 
 
 
