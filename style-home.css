@@ -1,0 +1,11 @@
+/* Defining the Super Wrapper*/
+
+#page-index .super-content.max-width {
+  margin-top: 5% !important;
+  max-width: 80% !important;
+  padding: 0px 48px !important;
+}
+
+#page-index img {
+  width: 64px !important;
+}
