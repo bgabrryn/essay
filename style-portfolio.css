@@ -103,10 +103,15 @@
 @media screen and (max-width: 600px) {
   #page-portfolio h2 {
     font-size: 32px !important;  
+    padding-bottom: 12px !important;
   }
   
-  #page-portfolio .notion-property__title, .notion-collection-card__content {
+  #page-portfolio .notion-property__title {
     display: none !important;
+  }
+  
+  #page-portfolio .notion-collection-card__content {
+    display: none !important; 
   }
   
   #page-portfolio .super-content.max-width {
